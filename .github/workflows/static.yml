@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Launcher GGMP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      font-family: Arial;
+      margin-top: 100px;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 10px;
+      border: none;
+      background: #22c55e;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>GGMP Launcher</h1>
+  <p>Klik tombol di bawah untuk membuka aplikasi</p>
+
+  <button onclick="openApp()">Buka GGMP</button>
+
+  <script>
+    function openApp() {
+      window.location.href = "intent:#Intent;package=com.zjx.ztezscreenshot;end";
+    }
+  </script>
+
+</body>
+</html>
